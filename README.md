@@ -18,7 +18,10 @@ You can run this project on a GPU instance on Floyd with a single command:
 
 ```bash
 floyd run --env keras --gpu --mode jupyter
-...
+```
+
+The output should contain the url to the jupyter notebook:
+```bash
 Path to jupyter notebook: https://www.floydhub.com:8000/2sN82HNJhwsqUm5QbWtqUi
 ```
 
