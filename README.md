@@ -12,6 +12,11 @@ cd deep-learning-keras-tensorflow
 floyd init deep-learning-keras-tensorflow
 ```
 
+If you don't have floyd already installed, you can run:
+```bash
+pip install -U floyd-cli
+```
+
 ### GPU Mode
 
 You can run this project on a GPU instance on Floyd with a single command:
